@@ -6,29 +6,36 @@ header {
   text-align: center;
   border-radius: 10px;
   padding: 70px 0;
-  background-image: linear-gradient (rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+  background-image: linear-gradient (rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.7));
   margin-top: 40px;
 }
 .container {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
 }
-h1,
+
 h2 {
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
-  font-weight: 600;
-  letter-spacing: 3px;
-  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 96px;
+  color: white;
   font-style: normal;
 }
 h1 {
-  font-size: 70px;
+  font-size: 96px;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+
+  color: white;
+  font-style: normal;
 }
 p {
   font-family: "Roboto Slab", serif;
-  color: rgb(255, 248, 248);
+  color: white;
   font-weight: 500;
+  font-size: 20px;
   font-style: normal;
 }
 footer p,
