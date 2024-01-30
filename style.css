@@ -1,0 +1,18 @@
+h1 {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  font-style: normal;
+}
+header {
+  background-image: url("images/bookshelf.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  border-radius: 10px;
+  padding: 70px 0;
+  margin-top: 40px;
+}
