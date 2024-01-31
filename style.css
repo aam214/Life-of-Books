@@ -60,7 +60,7 @@ a {
 }
 .grid-2-columns {
   display: grid;
-  grid-gap: 5px;
+
   grid-template-columns: 2fr 2fr;
 }
 
@@ -104,5 +104,10 @@ i {
 
   header h2 {
     font-size: 20px;
+  }
+  .grid,
+  .grid-2-columns {
+    grid-template-columns: 1fr;
+    grid-gap: 19px;
   }
 }
