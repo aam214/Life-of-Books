@@ -18,8 +18,9 @@ h2 {
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-weight: 900;
-  font-size: 96px;
+  font-size: 100px;
   color: white;
+  letter-spacing: 3px;
   font-style: normal;
 }
 h1 {
@@ -31,13 +32,17 @@ h1 {
   color: white;
   font-style: normal;
 }
+.pesto-pasta {
+  max-width: 400px;
+  border-radius: 10px;
+}
 .main-paragraph {
   opacity: 0.8;
   line-height: 25px;
 }
 p {
   font-family: "Roboto Slab", serif;
-  color: white;
+  color: rgb(114, 113, 113);
 
   font-size: 15px;
   font-style: normal;
@@ -48,10 +53,17 @@ li {
 }
 a {
   opacity: 0.8;
+  line-height: 25px;
 }
 .end {
   width: 100%;
 }
+.grid-2-columns {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 2fr 2fr;
+}
+
 .grid {
   display: grid;
   grid-gap: 5px;
@@ -62,7 +74,7 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
 
-  padding: 20px 0px;
+  padding: 10px 0px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)),
     url("images/dinnertable.jpg");
   font-family: "Roboto Slab", serif;
@@ -72,11 +84,14 @@ footer {
 }
 
 i {
-  padding: 12px;
+  padding: 5px;
 }
 
 .w3-button {
   margin-top: 20px;
+  margin-bottom: 20px;
+  display: block;
+  margin: 0 auto;
 }
 @media (max-width: 900px) {
   header {
