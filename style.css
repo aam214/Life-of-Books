@@ -7,18 +7,23 @@ header {
   padding: 70px 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("images/vegtableheader.jpg");
-  margin-top: 40px;
+  margin-top: 32px;
 }
 .container {
   max-width: 1200px;
   margin: 0 auto;
 }
-
+h3 {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 40px;
+}
 h2 {
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
-  font-weight: 900;
-  font-size: 100px;
+  font-weight: 400;
+  font-size: 60px;
   color: white;
   letter-spacing: 3px;
   font-style: normal;
@@ -39,16 +44,12 @@ h1 {
   max-width: 400px;
   border-radius: 10px;
 }
-.main-paragraph {
-  opacity: 0.8;
-  line-height: 25px;
-}
-p {
-  font-family: "Roboto Slab", serif;
-  color: rgb(102, 101, 101);
 
+p {
+  line-height: 1.8;
+  font-family: "Roboto Slab", serif;
   font-size: 15px;
-  font-style: normal;
+  color: rgb(102, 101, 101);
 }
 
 li {
@@ -63,7 +64,7 @@ a {
 }
 .grid-2-columns {
   display: grid;
-
+  margin-top: 40px;
   grid-template-columns: 2fr 2fr;
 }
 
@@ -76,7 +77,7 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
+  margin-top: 40px;
   padding: 10px 0px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)),
     url("images/dinnertable.jpg");
@@ -90,11 +91,18 @@ i {
   padding: 5px;
 }
 
-.w3-button {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  display: block;
-  margin: 0 auto;
+.link,
+.link:visited {
+  background-color: black;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.link:hover {
+  background-color: rgb(61, 61, 61);
 }
 @media (max-width: 900px) {
   header {
