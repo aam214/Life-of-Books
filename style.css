@@ -1,5 +1,5 @@
 header {
-  background-image: url("images/bookshelf.jpg");
+  background-image: url("images/vegtableheader.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -17,18 +17,18 @@ header {
 h2 {
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 96px;
-  color: white;
+  color: rgb(255, 255, 255);
   font-style: normal;
 }
 h1 {
   font-size: 96px;
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: bolder;
 
-  color: white;
+  color: rgb(255, 255, 255);
   font-style: normal;
 }
 p {
