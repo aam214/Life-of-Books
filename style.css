@@ -23,6 +23,9 @@ h2 {
   letter-spacing: 3px;
   font-style: normal;
 }
+h4 {
+  color: white;
+}
 h1 {
   font-size: 96px;
   font-family: "Roboto Slab", serif;
@@ -42,7 +45,7 @@ h1 {
 }
 p {
   font-family: "Roboto Slab", serif;
-  color: rgb(114, 113, 113);
+  color: rgb(102, 101, 101);
 
   font-size: 15px;
   font-style: normal;
