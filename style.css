@@ -4,7 +4,7 @@ header {
   background-repeat: no-repeat;
   text-align: center;
   border-radius: 10px;
-  padding: 70px 0;
+  padding: 30px 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("images/vegtableheader.jpg");
   margin-top: 32px;
@@ -22,21 +22,26 @@ h3 {
 h2 {
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
-  font-weight: 400;
-  font-size: 60px;
+  font-weight: 300;
+  font-size: 32px;
   color: white;
   letter-spacing: 3px;
   font-style: normal;
 }
 h4 {
   color: white;
-}
-h1 {
-  font-size: 96px;
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
-  font-weight: bolder;
-
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+h1 {
+  font-size: 50px;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  letter-spacing: 3px;
   color: white;
   font-style: normal;
 }
