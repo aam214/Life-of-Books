@@ -1,12 +1,12 @@
 header {
-  background-image: url("images/vegtableheader.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
   border-radius: 10px;
   padding: 70px 0;
-  background-image: linear-gradient (rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.7));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/vegtableheader.jpg");
   margin-top: 40px;
 }
 .container {
@@ -35,13 +35,26 @@ p {
   font-family: "Roboto Slab", serif;
   color: white;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 15px;
   font-style: normal;
 }
-footer p,
-main p {
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+footer {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 10px;
+  padding: 20px 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("images/dinnertable.jpg");
   font-family: "Roboto Slab", serif;
-  color: rgb(91, 91, 95);
+  color: rgb(237, 237, 243);
   font-weight: 400;
   font-style: normal;
 }
