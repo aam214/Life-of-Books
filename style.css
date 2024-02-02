@@ -13,12 +13,7 @@ header {
   max-width: 1200px;
   margin: 0 auto;
 }
-h3 {
-  font-family: "Roboto Slab", serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-size: 30px;
-}
+
 .button {
   background-color: #47e2a9;
   border: none;
@@ -31,7 +26,19 @@ h3 {
   margin: 4px 2px;
   cursor: pointer;
 }
-h2 {
+main {
+  background-color: white;
+}
+header h1 {
+  font-size: 50px;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  letter-spacing: 5px;
+  color: white;
+  font-style: normal;
+}
+header h2 {
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-weight: 300;
@@ -40,22 +47,29 @@ h2 {
   letter-spacing: 3px;
   font-style: normal;
 }
-h4 {
+header h3,
+main h3 {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 30px;
+}
+header h4 {
   color: white;
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-size: 20px;
-  letter-spacing: 3px;
+  letter-spacing: 5px;
 }
-h1 {
-  font-size: 50px;
+main h4 {
   font-family: "Roboto Slab", serif;
   font-optical-sizing: auto;
-  font-weight: 300;
-  letter-spacing: 3px;
-  color: white;
-  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  opacity: 0.7;
+  letter-spacing: 4px;
 }
 .pesto-pasta {
   margin-left: 28px;
@@ -75,8 +89,9 @@ p {
   color: rgb(102, 101, 101);
 }
 section {
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 8px 0;
+  padding: 100px 0;
 }
 li {
   list-style: none;
