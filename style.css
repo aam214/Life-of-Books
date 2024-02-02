@@ -72,14 +72,14 @@ main h4 {
   letter-spacing: 4px;
 }
 .pesto-pasta {
-  margin-left: 28px;
   margin-top: 18px;
-  max-width: 400px;
+  width: 100%;
   border-radius: 10px;
 }
 .grid-2-columns {
   display: grid;
-  margin-top: 40px;
+  grid-gap: 40px;
+
   grid-template-columns: 2fr 2fr;
 }
 p {
