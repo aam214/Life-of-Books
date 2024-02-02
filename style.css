@@ -21,7 +21,7 @@ h3 {
   margin-left: 14px;
 }
 .button {
-  background-color: #04aa6d;
+  background-color: #47e2a9;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -82,12 +82,13 @@ li {
 }
 a {
   color: white;
-  opacity: 0.8;
+  opacity: 0.7;
   line-height: 25px;
 }
 
 .grid {
   display: grid;
+  padding-left: 70px;
   grid-gap: 12px;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -97,17 +98,16 @@ footer {
   background-repeat: no-repeat;
   margin-top: 30px;
 
-  background-image: linear-gradient(rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.72)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url("images/dinnertable.jpg");
   font-family: "Roboto Slab", serif;
-  color: rgb(243, 243, 243);
+  color: rgb(204, 200, 200);
   font-weight: 400;
   font-style: normal;
 }
 foooter li {
   margin: 0;
   padding: 0;
-  opacity: 0.7;
 }
 i {
   padding-left: 25px;
@@ -115,16 +115,8 @@ i {
   opacity: 0.7;
 }
 
-.link {
-  color: rgb(204, 200, 200);
-  font-weight: 100;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-}
-
-.about-paragraph {
-  color: rgb(204, 200, 200);
+.my-info {
+  padding-left: 20px;
 }
 @media (max-width: 900px) {
   header {
