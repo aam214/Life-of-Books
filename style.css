@@ -136,16 +136,19 @@ section {
 .secondary-section {
   background: rgb(247, 246, 246);
 }
-.videos {
-  aspect-ratio: 1/1;
-}
+
 .grid-3-column-section {
   display: grid;
   grid-gap: 50px;
   grid-template-columns: 1fr 1fr 1fr;
 }
 .card-image {
-  padding: 20px;
+  padding: 10px;
+}
+.videos {
+  aspect-ratio: 1/1;
+  width: 100%;
+  border-radius: 10px;
 }
 li {
   list-style: none;
