@@ -23,7 +23,7 @@ header {
   border: none;
   color: white;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-  padding: 15px 32px;
+  padding: 10px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -73,9 +73,10 @@ main h4 {
   opacity: 0.5;
   letter-spacing: 4px;
 }
-.pesto-pasta {
+.image-responsive {
   margin-top: 18px;
   max-width: 100%;
+  display: block;
   border-radius: 10px;
 }
 .grid-2-columns {
@@ -93,6 +94,17 @@ p {
 section {
   max-width: 1000px;
   margin: 0 auto;
+}
+.card {
+  background-color: white;
+}
+.secondary-section {
+  background: #f8f8f8;
+}
+.grid-3-column-section {
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 li {
   list-style: none;
@@ -146,13 +158,14 @@ i {
     font-size: 38px;
   }
   .button {
-    margin-left: 180px;
+    margin-left: 100px;
   }
   header h2 {
     font-size: 20px;
   }
-  .grid,
-  .grid-2-columns {
+  .grid-3-column,
+  .grid-2-columns,
+  .grid-3-column-section {
     grid-template-columns: 1fr;
     grid-gap: 19px;
   }
