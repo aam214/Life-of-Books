@@ -112,7 +112,7 @@ section {
 }
 .card {
   background-color: white;
-
+  margin: 18px;
   border: none;
 }
 .secondary-body {
