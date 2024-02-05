@@ -29,7 +29,8 @@ header {
   display: inline-block;
   font-weight: 500;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 0 auto;
+
   cursor: pointer;
 }
 .button-secondary {
@@ -225,9 +226,7 @@ i:hover {
   header h1 {
     font-size: 38px;
   }
-  .button {
-    margin-left: 159px;
-  }
+
   header h2 {
     font-size: 20px;
   }
