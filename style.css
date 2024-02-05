@@ -124,10 +124,6 @@ section h2 {
   border-radius: 10px;
   transition: all 120ms ease-in-out;
 }
-.image-responsive:hover {
-  transform: scale(1.1);
-  cursor: pointer;
-}
 
 p {
   line-height: 1.8;
@@ -172,9 +168,7 @@ section {
   transform: scale(1.1);
   cursor: pointer;
 }
-li {
-  list-style: none;
-}
+
 a {
   color: rgb(204, 200, 200);
   opacity: 0.7;
