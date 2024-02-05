@@ -172,14 +172,24 @@ section {
 a {
   color: rgb(204, 200, 200);
   opacity: 0.7;
+  letter-spacing: 1.02px;
+  line-height: 1.5;
   font-weight: 300;
+  text-decoration: none;
   line-height: 25px;
 }
-
+a:hover {
+  cursor: pointer;
+}
 .grid-3-column {
   display: grid;
-  padding-left: 50px;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 12px;
+}
+.grid-3-column-footer {
+  padding-left: 50px;
+  display: grid;
+  grid-gap: 60px;
   grid-template-columns: 1fr 1fr 1fr;
 }
 footer {
@@ -187,10 +197,8 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   padding-top: 40px;
-
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url("images/dinnertable.jpg");
-
   color: rgb(204, 200, 200);
   font-weight: 400;
   font-style: normal;
@@ -198,12 +206,19 @@ footer {
 footer h3 {
   font-weight: 300;
 }
-
+.footer-card {
+  margin-left: 20px;
+}
 i {
   padding-left: 10px;
+  padding: 10px;
   opacity: 0.7;
+  transition: all 120ms ease-in-out;
 }
-
+i:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
 @media (max-width: 960px) {
   header {
     padding: 60px 0;
@@ -218,7 +233,8 @@ i {
   header h2 {
     font-size: 20px;
   }
-  .grid-3-column,
+
+  .grid-3-column-footer,
   .grid-2-columns,
   .grid-3-column-section {
     grid-template-columns: 1fr;
