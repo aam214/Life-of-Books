@@ -11,7 +11,6 @@ header {
   padding: 30px 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("images/vegtableheader.jpg");
-  margin-top: 32px;
 }
 .container {
   max-width: 1200px;
@@ -49,7 +48,6 @@ header {
 
 main {
   background-color: white;
-  margin-top: 40px;
 }
 header h1 {
   font-size: 50px;
@@ -187,7 +185,7 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin-top: 40px;
+
   padding-top: 40px;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
