@@ -172,6 +172,7 @@ section {
 a {
   color: rgb(204, 200, 200);
   opacity: 0.7;
+  font-weight: 300;
   line-height: 25px;
 }
 
@@ -185,7 +186,6 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
   padding-top: 40px;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
@@ -194,6 +194,9 @@ footer {
   color: rgb(204, 200, 200);
   font-weight: 400;
   font-style: normal;
+}
+footer h3 {
+  font-weight: 300;
 }
 
 i {
